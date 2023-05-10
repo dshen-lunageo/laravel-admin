@@ -20,19 +20,19 @@
         }
     ],
     "require": {
-        "php": "^7.3",
-        "illuminate/routing": "^6.0|^7.0|^8.0",
-        "illuminate/support": "^6.0|^7.0|^8.0",
-        "illuminate/validation": "^6.0|^7.0|^8.0",
-        "symfony/yaml": "^5.0"
+        "php": "^7.2|^8.0",
+        "illuminate/routing": "^6.0|^7.0|^8.0|^9.0|^10.0",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0",
+        "illuminate/validation": "^6.0|^7.0|^8.0|^9.0|^10.0",
+        "symfony/yaml": "^5.0|^6.0"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.16",
+        "friendsofphp/php-cs-fixer": "^2.16|^3.0",
         "fzaninotto/faker": "^1.9",
-        "spatie/laravel-medialibrary": "^8.7",
-        "spatie/laravel-query-builder": "^3.0",
-        "spatie/laravel-translatable": "^4.3",
-        "phpunit/phpunit": "^9.0"
+        "spatie/laravel-medialibrary": "^8.7|^9.0|^10.0",
+        "spatie/laravel-query-builder": "^3.0|^4.0|^5.0",
+        "spatie/laravel-translatable": "^4.3|^5.0|^6.0",
+        "phpunit/phpunit": "^9.0|^10.0"
     },
     "suggest": {
         "barryvdh/laravel-elfinder": "File manager interface with Wysiwyg bridges",

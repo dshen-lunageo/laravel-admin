@@ -20,7 +20,7 @@ class SearchFilter implements Filter
             $value = mb_strtolower($value, 'UTF8');
 
             foreach ($this->fields as $field) {
-                $query->orWhereRaw("CAST(LOWER({$field}) AS TEXT) LIKE ?", ["%{$value}%"]);
+                $query->orWhereRaw("LOWER(CAST({$field} AS TEXT)) LIKE ?", ["%{$value}%"]);
             }
         });
     }
